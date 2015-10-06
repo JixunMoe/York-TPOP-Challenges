@@ -1,0 +1,13 @@
+Header:
+I 'MZE\00'		The Standard Maze Data Header
+I width			Width
+I height		Height
+
+Maze data:
+B BorderData	A row of data
+				1 Border on the right
+				2 Border on the left
+				3-8 Not used
+
+Example:
+4D 5A 45 00 00 00 00 03 00 00 00 03 00 00 00 00 00 00 00 00 00 00
